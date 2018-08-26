@@ -1,0 +1,123 @@
+/* ========================================
+** ALLGEMEINE EINSTELLUNGEN + RESETS
+======================================== */
+html{
+  font-size: 62.5%;
+}
+
+body{
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* ========================================
+** TYPOGRAPHY
+======================================== */
+h1, h2, p, a {
+  margin: 0 0 4rem 0;
+}
+
+h1{
+  line-height: 1;
+}
+
+a{
+  color: #593943;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* ========================================
+** KLASSEN
+======================================== */
+.container{
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.cta{
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  max-width: 225px;
+  padding: 1.25em 1.5em;
+}
+
+.bgGray{
+  background-color: rgba(0, 0, 0, 0.05)
+}
+
+.panel{
+  padding: 5% 0;
+}
+
+.flexGrid{
+  display: flex;
+}
+
+.column{
+  flex-basis: 25%;
+  margin-right: 25px;
+}
+
+.column:last-of-type{
+  margin-right: 0;
+}
+
+
+
+/* ========================================
+** SECTIONS
+======================================== */
+#start{
+  background-image: url("../img/start-section-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#start h1{
+  font-size: 4.8rem;
+  text-transform: uppercase;
+}
+
+#start .subline{
+  font-size: 2.4rem;
+}
+
+footer{
+  background: #593943;
+  color: #fff;
+  text-align: center;
+  padding: 5% 0;
+}
+
+footer p{
+  font-size: 4.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
